@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#ffdaf8;
+}
+
+
+/* for nav_bar*/
+li a
+{
+    font-family: "Monsterrat",sans-serif;
+    text-decoration: none;
+    color:#82F6AB;
+   
+    font-size: 20px;
+}
+
+header
+{
+    display: flex;          /* It helps to make our blocks flexible */
+    justify-content:space-between;
+    align-items: center;
+   /* padding: 30px,10%;*/
+    background-color: #050d27;
+}
+
+.nav_links
+{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 20px 40px;  /*spacing of list item in nav bar */
+    
+}
+
+ul{
+    position: sticky;
+    top: 0;
+}
+.nav_links li a:hover
+{
+    color: rgb(255, 0, 0);
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+
+#searchbar
+{
+    margin-left: 6cm;
+}
+ 
+
+/* Body section */
+
+/* Trending text ko code ho yo */
+.title {
+    
+font-size: 33px;
+margin-top: 20px;
+margin-left: 2cm;
+}
+
+.card
+{
+     
+        display: flex;
+        align-items:flex-start;
+        background-color: white;
+        margin-right: 20px;
+    
+}
+
+.check
+{
+    margin-right: 2cm;
+    margin-left: 2cm;
+    margin-top: 1cm;
+}
+
+ #subtitle
+{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0.1cm;
+
+}
+
+#subtext
+{
+    font-size: 14px;
+    margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+   font-family: sans-serif;
+}
+
+
+.sectionTitle
+{
+font-size: 33px;
+font-family: 'Ubuntu';
+margin-left: 2cm;
+margin-top: 20px;
+
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;          /*  card ko size increasre or decrseare garney */
+    padding: 0 10px;
+    margin-top: 1cm;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+      
+    margin: 0 -5px;
+      margin-left: 2cm; /* card margin */
+     
+    }
+  
+  
+  /* Style the counter cards */
+  .card1 {
+
+    padding: 16px;
+    background-color: #f1f1f1;
+  }
+
+  .titletext
+  {
+      font-size: 20px;
+      font-family: sans-serif;
+      text-align: start;
+      margin-left: 2px;
+  }
+  .description
+  {
+     font-family: "Roboto",sans-serif;
+     font-weight: bold;
+      font-size: 13px;
+      margin-top: 3px;
+      text-align: start;
+      margin-left: 2px;
+      margin-right: 2px;
+  }
+.image
+{
+  margin-left: 0.2cm;
+
+}
+
+/* Footer */
+
+
+
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

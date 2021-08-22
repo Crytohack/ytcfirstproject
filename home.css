@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#ffdaf8;
+}
+
+
+/* for nav_bar*/
+li a
+{
+    font-family: "Monsterrat",sans-serif;
+    text-decoration: none;
+    color:#82F6AB;
+   
+    font-size: 20px;
+}
+
+header
+{
+    display: flex;          /* It helps to make our blocks flexible */
+    justify-content:space-between;
+    align-items: center;
+   /* padding: 30px,10%;*/
+    background-color: #050d27;
+}
+
+.nav_links
+{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 20px 40px;  /*spacing of list item in nav bar */
+    
+}
+
+ul{
+    position: sticky;
+    top: 0;
+}
+.nav_links li a:hover
+{
+    color: rgb(255, 0, 0);
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+
+#searchbar
+{
+    margin-left: 6cm;
+}
+
+
+.title
+{
+    margin-top: 1cm;
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 2cm;
+   
+}
+
+.image{
+
+text-align: center;
+margin-top: 0.3cm;
+margin-right: 5.4cm;
+
+}
+
+.subtitle
+{
+   
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 2cm;
+    margin-top: 0.5cm;
+}
+
+.subtext
+{
+    font-family: "Robeto",sans-serif;
+    font-size: 18px;
+    margin-left: 2cm;
+    margin-top: 0.2cm;
+    margin-right: 0.1cm;
+
+}
+
+
+.list{
+    float: left;
+    list-style-type: none;
+    position: relative;
+   
+}
+
+
+
+.update{
+    display: block;
+  padding: 8px;
+  margin-left: 2cm;
+
+}
+
